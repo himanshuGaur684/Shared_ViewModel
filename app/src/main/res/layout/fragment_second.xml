@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".fragments.SecondFragment">
+
+
+    <TextView
+        android:id="@+id/sec_name"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Coming from First Frag"
+       />
+
+    <TextView
+        android:id="@+id/sec_age"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Coming from First Frag"
+     />
+
+    <TextView
+        android:id="@+id/sec_semester"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Coming from First Frag"
+        />
+
+    <TextView
+        android:id="@+id/sec_year"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Coming from First Frag"
+        />
+
+    <EditText
+        android:id="@+id/sec_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="30dp"
+        android:hint="Enter Your Stream"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:id="@+id/submit"
+        android:padding="10dp"
+        android:text="Submit" />
+
+
+</LinearLayout>
